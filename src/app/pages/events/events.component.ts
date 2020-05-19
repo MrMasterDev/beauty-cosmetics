@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { EventsInterfaces } from 'src/app/core/interfaces/events.interfaces';
 import { EventsService } from 'src/app/core/services/events.service';
 
+
 @Component({
   selector: 'app-events',
   templateUrl: './events.component.html',
@@ -9,13 +10,14 @@ import { EventsService } from 'src/app/core/services/events.service';
 })
 export class EventsComponent implements OnInit {
 
+
   EventsList: Array<EventsInterfaces>;
   EventsData: EventsInterfaces;
 
   public search: string;
 
   constructor(
-    private EventsService: EventsService
+    private EventsService: EventsService,
   ) { }
 
   ngOnInit(): void {
@@ -32,4 +34,5 @@ export class EventsComponent implements OnInit {
         }
       );
   }
+
 }
