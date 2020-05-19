@@ -13,10 +13,10 @@ export class SearchComponent implements OnInit {
   GoodsData: GoodsInterfaces;
 
   public search: string;
-  
+
   constructor(
     private GoodsService: GoodsService
-  ){}
+  ) { }
 
   ngOnInit(): void {
     this.getGoods()
@@ -31,6 +31,6 @@ export class SearchComponent implements OnInit {
         error => console.error(error)
       )
   }
- 
+
 }
 

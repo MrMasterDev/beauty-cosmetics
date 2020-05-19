@@ -8,14 +8,14 @@
 </div>
 
 <div class="search-results">
-        <div class="search" *ngFor="let item of GoodsList | filterBySearch:search">
-            <img src="{{item.picture}}">
-            <div class="brandcard" id="description">
-                <h1>{{item.title}}</h1>
-                <p>{{item.description}}</p>
-            </div>
-            <button class="details nav-link" routerLinkActive="active" routerLink="{{item.url}}" type="button">
-                <span btn-description>Подробно</span>
-            </button>
+    <div class="search" *ngFor="let item of GoodsList | filterBySearch:search">
+        <img src="{{item.picture}}">
+        <div class="brandcard" id="description">
+            <h1>{{item.title}}</h1>
+            <p>{{item.description}}</p>
         </div>
+        <button class="details nav-link" routerLinkActive="active" routerLink="{{item.url}}" type="button">
+            <span btn-description>Подробно</span>
+        </button>
     </div>
+</div>

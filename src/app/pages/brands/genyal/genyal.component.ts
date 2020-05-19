@@ -10,7 +10,7 @@ export class GenyalComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    
+
   }
-  
+
 }

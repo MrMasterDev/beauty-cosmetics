@@ -1,5 +1,4 @@
-export class GoodsInterfaces
-{
+export class GoodsInterfaces {
     id: number;
     title: string;
     description: string;
