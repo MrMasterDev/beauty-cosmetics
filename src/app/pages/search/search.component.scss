@@ -1,0 +1,63 @@
+.brandcard{
+    width: 350px;
+    color: white;
+}
+
+#description{
+    text-align: center;
+    background-color: #343a40;
+    border: 5px solid #505a65;
+    border-radius: 10px;
+}
+.search-results{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -40px;
+}
+img{
+    height: 300px;
+    margin-left: -80px;
+}
+.search{
+    position: relative;
+    width: 30%;
+    margin-right: -270px;
+    margin-left: 280px;
+    left: -270px;
+    margin-bottom: 20px;
+}
+
+.details{
+    background-color: #343a40;
+    height: 50px;
+    margin-top: 5px;
+    width: 200px;
+    border: 5px solid;
+    border-color: #505a65;
+    border-radius: 10px;
+    color: white;
+    margin-left: 70px;
+}
+.details:hover{
+    background-color: rgba(128, 128, 128, 0.26);
+    color:  rgb(0, 153, 255);
+    font-style: italic;
+}
+
+input:hover{
+    border: 3px solid rgb(0, 153, 255) !important;
+}
+input{
+    background-color: #343a40 !important;
+    color: rgb(0, 153, 255) !important;
+    position: absolute;
+    top: -50px;
+    left: 912px;
+    border: 3px solid  #505a65 !important;
+    border-radius: 10px;
+    width: 605px;
+    height: 41px;
+}
+input::placeholder{
+    color: white;
+    }

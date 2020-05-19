@@ -1,0 +1,17 @@
+:host{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.content{
+  flex: 1 0 auto;
+}
+.copyright{
+  margin-right: 300px;
+  margin-left: -100px;
+  font-size: 24px;
+}
+.despription{
+  font-size: 24px;
+}

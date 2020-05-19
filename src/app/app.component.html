@@ -1,0 +1,17 @@
+<div class="content">
+  <app-header
+    [title]="'Beauty' + ' ' + headerT"
+    [subName]="subname"
+    (testOutput)="testOutputApp($event)">
+  </app-header>
+  
+  <app-nav></app-nav>
+
+  <router-outlet></router-outlet>
+</div>
+
+<app-footer>
+  <p class="copyright">©2020</p>
+  <h2 class="despription">Beauty Cosmetics - косметическая продукция от ведущих брендов</h2>
+</app-footer>
+  

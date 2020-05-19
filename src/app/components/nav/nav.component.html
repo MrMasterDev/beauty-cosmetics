@@ -1,0 +1,96 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <ul class="navbar-nav">
+
+        <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" routerLink="main-page">Главная</a>
+        </li>
+
+        <li class="dropdown nav-item" routerLinkActive="active" placement="right" bsDropdown triggers="mouseover">
+            <a class="nav-link" bsDropdownToggle dropdown-toggle data-toggle="dropdown" role="button"
+                routerLink="brands">Бренды<span class="caret"></span></a>
+
+            <ul id="dropdown-nested" *dropdownMenu class="dropdown-menu" role="menu" aria-labelledby="button-nested">
+
+                <li role="menuitem" dropdown triggers="mouseout" placement="center" container="body">
+                    <a dropdownToggle class="dropdown-item dropdown-toggle" routerLink="brands/xcelens">Xcelens<span
+                            class="caret"></span></a>
+                </li>
+
+                <li role="menuitem" dropdown triggers="mouseover" placement="right" container="body">
+                    <a dropdownToggle class="dropdown-item dropdown-toggle" routerLink="brands/genyal"
+                        (click)="false">Genyal<span class="caret"></span></a>
+                </li>
+
+                <li role="menuitem" dropdown triggers="mouseover" placement="right" container="body">
+                    <a dropdownToggle class="dropdown-item dropdown-toggle" routerLink="brands/melsmon"
+                        (click)="false">Melsmon<span class="caret"></span></a>
+                </li>
+
+                <li role="menuitem" dropdown triggers="mouseover" placement="right" container="body">
+                    <a dropdownToggle class="dropdown-item dropdown-toggle" routerLink="brands/density"
+                        (click)="false">Density Platelet<span class="caret"></span></a>
+                </li>
+
+                <li role="menuitem" dropdown triggers="mouseover" placement="right" container="body">
+                    <a dropdownToggle class="dropdown-item dropdown-toggle" routerLink="brands/ejal"
+                        (click)="false">Ejal 40<span class="caret"></span></a>
+                </li>
+
+                <li role="menuitem" dropdown triggers="mouseover" placement="right" container="body">
+                    <a dropdownToggle class="dropdown-item dropdown-toggle" routerLink="brands/peptidyal"
+                        (click)="false">Peptidyal<span class="caret"></span></a>
+                </li>
+
+                <li role="menuitem" dropdown triggers="mouseover" placement="right" container="body">
+                    <a dropdownToggle class="dropdown-item dropdown-toggle" routerLink="brands/peptidyal115"
+                        (click)="false">Peptidyal115<span class="caret"></span></a>
+                </li>
+
+                <li role="menuitem" dropdown triggers="mouseover" placement="right" container="body">
+                    <a dropdownToggle class="dropdown-item dropdown-toggle" routerLink="brands/hyamino"
+                        (click)="false">Hyamino care 75<span class="caret"></span></a>
+                </li>
+
+                <li role="menuitem" dropdown triggers="mouseover" placement="right" container="body">
+                    <a dropdownToggle class="dropdown-item dropdown-toggle" routerLink="brands/doublyx"
+                        (click)="false">Doublyx evo<span class="caret"></span></a>
+                </li>
+
+                <li role="menuitem" dropdown triggers="mouseover" placement="right" container="body">
+                    <a dropdownToggle class="dropdown-item dropdown-toggle" routerLink="brands/peptidyal2"
+                        (click)="false">Peptidyal 2<span class="caret"></span></a>
+                </li>
+
+                <li role="menuitem" dropdown triggers="mouseover" placement="right" container="body">
+                    <a dropdownToggle class="dropdown-item dropdown-toggle" routerLink="brands/jpx3bio"
+                        (click)="false">JPX3bio<span class="caret"></span></a>
+                </li>
+
+                <li role="menuitem" dropdown triggers="mouseover" placement="right" container="body">
+                    <a dropdownToggle class="dropdown-item dropdown-toggle" routerLink="brands/makropeel"
+                        (click)="false">Makropeel<span class="caret"></span></a>
+                </li>
+
+            </ul>
+        </li>
+
+        <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" routerLink="seminars">Семинары</a>
+        </li>
+
+        <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" routerLink="events">События</a>
+        </li>
+
+        <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" routerLink="about">О нас</a>
+        </li>
+    </ul>
+
+    <div class="row justify-content-between">
+        <form class="col">
+            <div class="form-group">
+                <input type="text" class="form-control" name="search" placeholder="Поиск..." autocomplete="off" routerLinkActive="active" routerLink="pages/search" />
+            </div>
+        </form>
+    </div>

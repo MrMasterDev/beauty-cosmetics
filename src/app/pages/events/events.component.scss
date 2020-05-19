@@ -1,0 +1,53 @@
+:host{
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+
+.eventcard{
+    color: white;
+    margin-top: 40px;
+    margin-left: -50px;
+    margin-right: 20px;
+}
+.description{
+    text-align: center;
+    margin-left: 90px;
+    margin-top: -30px;
+    background-color: #343a40;
+    border: 5px solid #505a65;
+    border-radius: 10px;
+}
+.regbutton{
+    background-color: #343a40;
+    margin-left: 540px;
+    height: 50px;
+    margin-top: 5px;
+    width: 200px;
+    border: 5px solid #505a65;
+    border-radius: 10px;
+    color: white;
+}
+.regbutton:hover{
+    background-color: rgba(128, 128, 128, 0.26);
+    color:  rgb(0, 153, 255);
+    font-style: italic;
+}
+.modal-header{
+    background-color: #343a40;
+    color: white;
+}
+.modal-body{
+    background-color: #343a40;
+    color: white;
+}
+.form-control{
+    background-color: #343a40;
+    color: white;
+}
+.close{
+    color: red;
+}
+.btn:hover{
+    background-color: green;
+}

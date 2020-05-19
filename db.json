@@ -1,0 +1,48 @@
+{
+  "goods": [
+    {
+      "id": 1,
+      "title": "Xcelens 3",
+      "picture": "assets/img/xcelens.png",
+      "description": "Препараты для контурной пластики",
+      "url": "../../brands/xcelens/xcelens3-details"
+    },
+    {
+      "id": 2,
+      "title": "Xcelens 4",
+      "picture": "assets/img/xcelens4.png",
+      "description": "Препараты для контурной пластики",
+      "url": "../../brands/xcelens/xcelens4-details"
+    },
+    {
+      "id": 3,
+      "title": "Genyal Volume",
+      "picture": "assets/img/genyal2.png",
+      "description": "Препараты для контурной пластики",
+      "url": "../../brands/genyal/genyal-volume"
+    },
+    {
+      "id": 5,
+      "title": "Genyal Genyalift",
+      "picture": "assets/img/genyalift.png",
+      "description": "Препараты для контурной пластики",
+      "url": "../../brands/genyal/genyal-genyalift"
+    },
+    {
+      "id": 6,
+      "title": "Genyal Polyvalent",
+      "picture": "assets/img/genyal.png",
+      "description": "Препараты для контурной пластики",
+      "url": "../../brands/genyal/genyal-polyvalent"
+    }
+  ],
+
+  "events": [
+    {
+      "id": 1,
+      "title": "Гармонизация лица молодого и возрастного пациента",
+      "description": "19 мая, 14:00 – 16:00. Вебинар с дискуссией онлайн. Спикер - Мария Бутенко."
+    }
+    
+  ]
+}
